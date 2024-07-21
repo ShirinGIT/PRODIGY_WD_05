@@ -1,0 +1,41 @@
+h1{
+    font-family:"Bebas Neue", sans-serif;
+    font-size:5rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button{
+    font-size: 2rem;  
+}
+input{
+    font-size: 2rem; 
+}
+.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+}
+#weather-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 10px auto;
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  body{
+    text-align: center;
+    
+    background-image: url(field-yellow-flowers-with-hills-cloudy-sky.jpg);
+  }
+  #weather-data h2, #weather-data p {
+    margin: 10px 0;
+  }
